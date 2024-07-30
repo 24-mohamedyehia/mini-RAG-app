@@ -6,7 +6,7 @@ This is a minimal implementation of RAG model for qustion answering.
 
 - Python 3.8 or leter
 
-#### Install Python Using Miniconda
+### Install Python Using Miniconda
 
 1) Download and install MiniConda from [here](https://docs.anaconda.com/miniconda/#quick-command-line-install)
 
@@ -20,7 +20,8 @@ $ conda create -n mini-rag python=3.8
 $ conda activate mini-rag 
 ```
 
-#### (Optional) Setup you command line interface for better readability
+### (Optional) Setup you command line interface for better readability
 ```bash
 export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 ```
+
