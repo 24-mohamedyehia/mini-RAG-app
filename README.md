@@ -12,7 +12,7 @@ This is a minimal implementation of RAG model for qustion answering.
 
 2) Create a new environment using the following command:
 ```bash
-$ conda create -n mini-rag python=3.8
+$ conda create -n mini-rag python=3.8 -y
 ```
 
 3) Activate the environment:
@@ -42,7 +42,7 @@ Set your environment variables in the `.env` file. Like `OPENAI_API_KEY` value.
 
 ### Run the FastAPI server
 ```bash
-$ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+$ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ### POSTMAN Collection
